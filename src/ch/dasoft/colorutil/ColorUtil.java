@@ -117,17 +117,6 @@ public class ColorUtil {
   /** <p style="background-color: rgb(142,  43,  48);"><br/><br/></p> */
   public static final Color BRAUN                    = new Color(142,  43,  48);
 
-  /** <p style="background-color: rgb(  0,  99, 165);"><br/><br/></p> */
-  public static final Color CONNECTION_LABEL_RS = new Color(  0,  99, 165);
-  /** <p style="background-color: rgb(235, 151,  30);"><br/><br/></p> */
-  public static final Color CONNECTION_LABEL_FI = new Color(235, 151,  30);
-  /** <p style="background-color: rgb(235, 151,  30);"><br/><br/></p> */
-  public static final Color CONNECTION_LABEL_WS = new Color(170, 102, 204);
-  public static final Color CONNECTION_LABEL_LD = BLUE_PASTELL;
-  public static final Color CONNECTION_LABEL_YC = ORANGE_PASTELL;
-  public static final Color CONNECTION_LABEL_SC = VIOLET_PASTELL_LIGHT;
-  public static final Color CONNECTION_LABEL_HP = VIOLET;
-
   public static String convertRgbToHex(Color color) {
     String hex = Integer.toHexString(color.getRGB() & 0xffffff);
     if (hex.length() < 6) {
