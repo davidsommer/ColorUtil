@@ -9,4 +9,9 @@ ColorUtil file for Java Project. Helps you organize your Colors.
 ## Functions for color manipulations:
 * convertRgbToHex
 * convertHexToColor
-* isHell
+* isLight
+* isDark
+* lighter (Make Color lighter)
+* darker (Make Color Darker)
+
+Thanks to http://geosoft.no/software/colorutil/ColorUtil.java.html
